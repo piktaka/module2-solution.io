@@ -1,0 +1,121 @@
+*{
+padding: 0;
+margin: 0;
+
+
+
+}
+*{
+   font-family: "Lucida Console", Monaco, monospace;
+    
+}
+#paragraph1 .content .paragraph-title{
+background-color: cyan;
+
+}
+
+#paragraph2 .content .paragraph-title{
+
+background-color: darkcyan;
+
+}
+
+#paragraph3 .content .paragraph-title{
+
+
+    background-color: darkmagenta;
+}
+@media screen and (max-width: 767px){
+    [class*="col-"] {
+        width: 100%;
+      }
+    
+    
+    }
+    @media  screen and (min-width:768px) and (max-width:991px){
+
+
+
+
+        .col-md-1 {width: 8.33%;}
+        .col-md-2 {width: 16.66%;}
+        .col-md-3 {width: 25%;}
+        .col-md-4 {width: 33.33%;}
+        .col-md-5 {width: 41.66%;}
+        .col-md-6 {width: 50%;}
+        .col-md-7 {width: 58.33%;}
+        .col-md-8 {width: 66.66%;}
+        .col-md-9 {width: 75%;}
+        .col-md-10 {width: 83.33%;}
+        .col-md-11 {width: 91.66%;}
+        .col-md-12 {width: 100%;}
+        #paragraph1,#paragraph2{
+            float: left;
+        }
+    }
+    
+    
+    
+@media screen and (min-width: 992px){
+ 
+ .col-lg-1 {width: 8.33%;}
+ .col-lg-2 {width: 16.66%;}
+ .col-lg-3 {width: 25%;}
+ .col-lg-4 {width: 33.33%;}
+ .col-lg-5 {width: 41.66%;}
+ .col-lg-6 {width: 50%;}
+ .col-lg-7 {width: 58.33%;}
+ .col-lg-8 {width: 66.66%;}
+ .col-lg-9 {width: 75%;}
+ .col-lg-10 {width: 83.33%;}
+ .col-lg-11 {width: 91.66%;}
+ .col-lg-12 {width: 100%;}
+
+ #paragraph1,#paragraph2,#paragraph3{
+
+float: left;
+
+
+ }
+}
+
+
+.container {
+
+
+overflow: auto;
+
+
+padding: 20px;
+}
+.title p {
+font-size: 1.75em;
+    text-align: center;
+   margin: 40px;
+    
+        }
+
+        .content{
+margin: 20px;
+border: 1px solid;
+overflow: auto;
+position: relative;
+background-color: floralwhite;
+        }
+
+.content > p {
+
+    padding: 60px 20px 20px 20px;
+}
+.content .paragraph-title{
+font-size:1.25em; ;
+position: absolute;
+top: 0;
+right: 0;
+padding: 10px;
+text-align: center;
+border-style: solid;
+border-width: 0 0 1px 1px   ;
+
+
+}
